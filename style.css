@@ -4,9 +4,23 @@
 }
 
 .login {
-    
+    width: 40%;
+    margin: auto;
 }
 
-.item {
-    
+.loginIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.form {
+    height: 32px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.address {
+    float: end;
 }
