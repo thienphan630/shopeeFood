@@ -1,0 +1,17 @@
+[
+    {
+        "userId": 1,
+        "username": "abc@gmail.com",
+        "password": "1"
+    },
+    {
+        "userId": 2,
+        "username": "def@gmail.com",
+        "password": "1"
+    },
+    {
+        "userId": 3,
+        "username": "ghi@gmail.com",
+        "password": "1"
+    }
+]
