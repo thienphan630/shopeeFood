@@ -1,10 +1,4 @@
-
-
-
-
-
 function login(){
-    event.preventDefault();
     var email = document.getElementById("staticEmail").value;
     var password = document.getElementById("inputPassword").value;
     fetch("./data.json")
@@ -16,8 +10,5 @@ function login(){
             if(email==x.username && password==x.password) window.location.href="home.html";
             else console.log('no');
         }
-    
     })
-    
 }
-
