@@ -1,6 +1,7 @@
 function login(){
     const email = document.getElementById("staticEmail").value;
     const password = document.getElementById("inputPassword").value;
+    console.log()
     fetch("./data.json")
     .then(response => {
         return response.json();
